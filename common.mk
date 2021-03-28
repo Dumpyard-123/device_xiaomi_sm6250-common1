@@ -149,7 +149,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.5 \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0 \
-    vendor.display.config@2.0.vendor 
+    vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
@@ -466,7 +466,8 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.xiaomi_sm6250
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
 
 # VNDK
 PRODUCT_COPY_FILES += \
